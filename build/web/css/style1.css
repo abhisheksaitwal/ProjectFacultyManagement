@@ -1,0 +1,104 @@
+/*
+* multi-line comment
+*/
+.button { 
+    background-color: #80B763;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: bold;
+    padding: 8px 22px;
+    font-size: 0.8em;
+    letter-spacing: 0.25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.button:hover {
+	background-color: #669D48;
+}
+
+.element15 {
+	font-family: "Montserrat", sans-serif;	/* custom font applied */
+	font-size:medium;
+        width: 12em;							/* custom width */
+	height: 3em;							/* custom height */
+	border: 0.1em solid #ccc;				/* custom border */
+	border-radius: 0.5em;					/* added border radius */
+	background-color: #feffdc;				/* light yellow background */
+	padding: 0em 1em;						/* right and left padding */
+}
+
+p{ line-height: 1em; }
+h1, h2, h3, h4{
+    color: #80B763;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 2.0em; }
+h2{ font-size: 1.7em; }
+a{
+	color: black;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
+/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
+
+body{
+    font-family: arial; font-size: 120%; line-height: 1.2em; widthS: 70%; margin: 0; background: #eee;
+}
+/* you can put your code all in one line like above */
+#page{ margin: 20px; }
+
+/* or on different lines like below */
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+/* but try and be as concise as possible */
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: #80B763;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #80B763;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #80B760; }
+
+#content{
+	margin: 60px 100px;
+	background: white;
+	padding: 30px;
+	clear: both;
+}
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
+
+/* multiple styles seperated by a , */
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }
